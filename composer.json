@@ -1,0 +1,21 @@
+{
+    "name": "mipotech/yii2-login-defender",
+    "description": "An extension to prevent multiple consecutive login attempts",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MIPO Technologies Ltd.",
+            "email": "chaim@mipo.co.il"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mipotech\\loginDefender\\": ""
+        }
+    }
+}
